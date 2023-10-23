@@ -1,0 +1,124 @@
+
+.container-main {
+    
+    border: 1px solid #000000;
+    overflow: hidden;
+    width: 100%;
+   background-color: #808080;
+   color: white;
+  
+}
+.sol {
+    
+    width: 40%;
+    float: left;
+    
+    
+}
+.image{
+    width: 40%;
+}
+
+.sag {
+    
+    width: 60%;
+    float: right;
+    
+}
+
+.container-main .sol:hover{
+    color: brown;
+}
+
+.container-main .sag:hover{
+    color: brown;
+}
+
+.footer-container{
+   
+    .sol {
+       
+        width: 40%;
+        float: left;
+        background-color: #908f8f;
+   color: white;
+  
+}
+.sag {
+   
+        width: 60%;
+        float: right;
+        background-color: #908f8f;
+        color: white;
+        
+       
+}
+
+}
+
+.footer-container .sol:hover{
+    color: brown;
+}
+
+.footer-container .sag:hover{
+    color: brown;
+}
+
+@media screen and (max-width: 480px) {
+    .container-main {
+    
+        border: 1px solid #000000;
+        overflow: hidden;
+        width: 100%;
+       background-color: #808080;
+       color: white;
+      
+    }
+    .sol {
+        
+        width: 40%;
+        float: left;
+        
+        
+    }
+    .image{
+        width: 40%;
+    }
+    
+    .sag {
+        
+        width: 60%;
+        float: right;
+        
+    }
+    
+    .footer-container{
+       
+        .sol {
+           
+            width: 40%;
+            float: left;
+            background-color: #908f8f;
+       color: white;
+      
+    }
+    .sag {
+       
+            width: 60%;
+            float: right;
+            background-color: #908f8f;
+            color: white;
+            
+           
+    }
+    
+    }
+    
+    .footer-container .sol:hover{
+        color: brown;
+    }
+    
+    .footer-container .sag:hover{
+        color: brown;
+    }
+}
